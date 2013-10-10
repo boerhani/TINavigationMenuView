@@ -1,4 +1,4 @@
 TINavigationMenuView
 ====================
 
-Vertical breadcrumb navigation menu, like a clear app menu animation
+Vertical breadcrumb navigation menu with clear app menu animation
