@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4F5A871807C4720032D7F3 /* menu1.json in Resources */ = {isa = PBXBuildFile; fileRef = FD4F5A861807C4720032D7F3 /* menu1.json */; };
+		FD4F5A891807C4870032D7F3 /* menu2.json in Resources */ = {isa = PBXBuildFile; fileRef = FD4F5A881807C4870032D7F3 /* menu2.json */; };
+		FD4F5A8C1807CADE0032D7F3 /* TIImageBGMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F5A8B1807CADE0032D7F3 /* TIImageBGMenuController.m */; };
+		FD4F5A8E1807CD840032D7F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4F5A8D1807CD840032D7F3 /* Images.xcassets */; };
+		FD4F5A911807CF800032D7F3 /* TISimpleMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F5A901807CF800032D7F3 /* TISimpleMenuController.m */; };
 		FD6201F018039FBC007C4C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6201EF18039FBC007C4C90 /* Foundation.framework */; };
 		FD6201F218039FBC007C4C90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6201F118039FBC007C4C90 /* CoreGraphics.framework */; };
 		FD6201F418039FBC007C4C90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6201F318039FBC007C4C90 /* UIKit.framework */; };
 		FD6201FA18039FBC007C4C90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD6201F818039FBC007C4C90 /* InfoPlist.strings */; };
 		FD6201FC18039FBC007C4C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6201FB18039FBC007C4C90 /* main.m */; };
 		FD62020018039FBC007C4C90 /* TIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6201FF18039FBC007C4C90 /* TIAppDelegate.m */; };
-		FD62020218039FBC007C4C90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD62020118039FBC007C4C90 /* Images.xcassets */; };
 		FD62020918039FBC007C4C90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62020818039FBC007C4C90 /* XCTest.framework */; };
 		FD62020A18039FBC007C4C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6201EF18039FBC007C4C90 /* Foundation.framework */; };
 		FD62020B18039FBC007C4C90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6201F318039FBC007C4C90 /* UIKit.framework */; };
@@ -21,8 +25,8 @@
 		FD62021518039FBC007C4C90 /* TINavigationMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62021418039FBC007C4C90 /* TINavigationMenuViewTests.m */; };
 		FD6202281803B59C007C4C90 /* TIMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6202231803B59C007C4C90 /* TIMenuCell.m */; };
 		FD6202291803B59C007C4C90 /* TIMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6202261803B59C007C4C90 /* TIMenuTableView.m */; };
-		FD6202301803BA22007C4C90 /* TIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62022F1803BA22007C4C90 /* TIViewController.m */; };
-		FD6202321803BCC9007C4C90 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = FD6202311803BCC9007C4C90 /* menu.json */; };
+		FD6202301803BA22007C4C90 /* TIIconMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD62022F1803BA22007C4C90 /* TIIconMenuController.m */; };
+		FD6202321803BCC9007C4C90 /* menu3.json in Resources */ = {isa = PBXBuildFile; fileRef = FD6202311803BCC9007C4C90 /* menu3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD4F5A861807C4720032D7F3 /* menu1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu1.json; sourceTree = "<group>"; };
+		FD4F5A881807C4870032D7F3 /* menu2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu2.json; sourceTree = "<group>"; };
+		FD4F5A8A1807CADE0032D7F3 /* TIImageBGMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIImageBGMenuController.h; sourceTree = "<group>"; };
+		FD4F5A8B1807CADE0032D7F3 /* TIImageBGMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIImageBGMenuController.m; sourceTree = "<group>"; };
+		FD4F5A8D1807CD840032D7F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD4F5A8F1807CF800032D7F3 /* TISimpleMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TISimpleMenuController.h; sourceTree = "<group>"; };
+		FD4F5A901807CF800032D7F3 /* TISimpleMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TISimpleMenuController.m; sourceTree = "<group>"; };
 		FD6201EC18039FBC007C4C90 /* TINavigationMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TINavigationMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6201EF18039FBC007C4C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FD6201F118039FBC007C4C90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +57,6 @@
 		FD6201FD18039FBC007C4C90 /* TINavigationMenuView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TINavigationMenuView-Prefix.pch"; sourceTree = "<group>"; };
 		FD6201FE18039FBC007C4C90 /* TIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIAppDelegate.h; sourceTree = "<group>"; };
 		FD6201FF18039FBC007C4C90 /* TIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIAppDelegate.m; sourceTree = "<group>"; };
-		FD62020118039FBC007C4C90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FD62020718039FBC007C4C90 /* TINavigationMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TINavigationMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD62020818039FBC007C4C90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FD62021018039FBC007C4C90 /* TINavigationMenuViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TINavigationMenuViewTests-Info.plist"; sourceTree = "<group>"; };
@@ -57,9 +67,9 @@
 		FD6202241803B59C007C4C90 /* TIMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIMenuDelegate.h; sourceTree = "<group>"; };
 		FD6202251803B59C007C4C90 /* TIMenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIMenuTableView.h; sourceTree = "<group>"; };
 		FD6202261803B59C007C4C90 /* TIMenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIMenuTableView.m; sourceTree = "<group>"; };
-		FD62022E1803BA22007C4C90 /* TIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIViewController.h; sourceTree = "<group>"; };
-		FD62022F1803BA22007C4C90 /* TIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIViewController.m; sourceTree = "<group>"; };
-		FD6202311803BCC9007C4C90 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		FD62022E1803BA22007C4C90 /* TIIconMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIIconMenuController.h; sourceTree = "<group>"; };
+		FD62022F1803BA22007C4C90 /* TIIconMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIIconMenuController.m; sourceTree = "<group>"; };
+		FD6202311803BCC9007C4C90 /* menu3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu3.json; sourceTree = "<group>"; };
 		FDFBE1461806AE460020FA49 /* UIColorHexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIColorHexString.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +97,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD4F5A821807C36E0032D7F3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F5A831807C39E0032D7F3 /* Simple Menu */,
+				FD4F5A841807C3A70032D7F3 /* Menu with background image */,
+				FD4F5A851807C3C20032D7F3 /* Menu with image icon */,
+				FD6201FE18039FBC007C4C90 /* TIAppDelegate.h */,
+				FD6201FF18039FBC007C4C90 /* TIAppDelegate.m */,
+				FDFBE1461806AE460020FA49 /* UIColorHexString.h */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		FD4F5A831807C39E0032D7F3 /* Simple Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F5A8F1807CF800032D7F3 /* TISimpleMenuController.h */,
+				FD4F5A901807CF800032D7F3 /* TISimpleMenuController.m */,
+				FD4F5A861807C4720032D7F3 /* menu1.json */,
+			);
+			name = "Simple Menu";
+			sourceTree = "<group>";
+		};
+		FD4F5A841807C3A70032D7F3 /* Menu with background image */ = {
+			isa = PBXGroup;
+			children = (
+				FD4F5A8A1807CADE0032D7F3 /* TIImageBGMenuController.h */,
+				FD4F5A8B1807CADE0032D7F3 /* TIImageBGMenuController.m */,
+				FD4F5A881807C4870032D7F3 /* menu2.json */,
+			);
+			name = "Menu with background image";
+			sourceTree = "<group>";
+		};
+		FD4F5A851807C3C20032D7F3 /* Menu with image icon */ = {
+			isa = PBXGroup;
+			children = (
+				FD62022E1803BA22007C4C90 /* TIIconMenuController.h */,
+				FD62022F1803BA22007C4C90 /* TIIconMenuController.m */,
+				FD6202311803BCC9007C4C90 /* menu3.json */,
+			);
+			name = "Menu with image icon";
+			sourceTree = "<group>";
+		};
 		FD6201E318039FBC007C4C90 = {
 			isa = PBXGroup;
 			children = (
@@ -122,12 +175,7 @@
 			children = (
 				FD6201F618039FBC007C4C90 /* Supporting Files */,
 				FD62021E1803B065007C4C90 /* Classes */,
-				FD6201FE18039FBC007C4C90 /* TIAppDelegate.h */,
-				FD6201FF18039FBC007C4C90 /* TIAppDelegate.m */,
-				FD62022E1803BA22007C4C90 /* TIViewController.h */,
-				FD62022F1803BA22007C4C90 /* TIViewController.m */,
-				FDFBE1461806AE460020FA49 /* UIColorHexString.h */,
-				FD6202311803BCC9007C4C90 /* menu.json */,
+				FD4F5A821807C36E0032D7F3 /* Demo */,
 			);
 			path = TINavigationMenuView;
 			sourceTree = "<group>";
@@ -135,7 +183,7 @@
 		FD6201F618039FBC007C4C90 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD62020118039FBC007C4C90 /* Images.xcassets */,
+				FD4F5A8D1807CD840032D7F3 /* Images.xcassets */,
 				FD6201F718039FBC007C4C90 /* TINavigationMenuView-Info.plist */,
 				FD6201F818039FBC007C4C90 /* InfoPlist.strings */,
 				FD6201FB18039FBC007C4C90 /* main.m */,
@@ -249,9 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD6202321803BCC9007C4C90 /* menu.json in Resources */,
+				FD4F5A891807C4870032D7F3 /* menu2.json in Resources */,
+				FD4F5A8E1807CD840032D7F3 /* Images.xcassets in Resources */,
+				FD4F5A871807C4720032D7F3 /* menu1.json in Resources */,
+				FD6202321803BCC9007C4C90 /* menu3.json in Resources */,
 				FD6201FA18039FBC007C4C90 /* InfoPlist.strings in Resources */,
-				FD62020218039FBC007C4C90 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4F5A8C1807CADE0032D7F3 /* TIImageBGMenuController.m in Sources */,
 				FD6202291803B59C007C4C90 /* TIMenuTableView.m in Sources */,
 				FD6201FC18039FBC007C4C90 /* main.m in Sources */,
+				FD4F5A911807CF800032D7F3 /* TISimpleMenuController.m in Sources */,
 				FD6202281803B59C007C4C90 /* TIMenuCell.m in Sources */,
-				FD6202301803BA22007C4C90 /* TIViewController.m in Sources */,
+				FD6202301803BA22007C4C90 /* TIIconMenuController.m in Sources */,
 				FD62020018039FBC007C4C90 /* TIAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

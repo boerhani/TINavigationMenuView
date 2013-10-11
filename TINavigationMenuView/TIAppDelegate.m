@@ -7,7 +7,11 @@
 //
 
 #import "TIAppDelegate.h"
-#import "TIViewController.h"
+
+#import "TISimpleMenuController.h"
+#import "TIImageBGMenuController.h"
+#import "TIIconMenuController.h"
+
 
 @implementation TIAppDelegate
 
@@ -15,8 +19,25 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    TIViewController *menuViewController = [[TIViewController alloc] init];
-    [self.window setRootViewController:menuViewController];
+    TISimpleMenuController *simpleMenuController = [[TISimpleMenuController alloc] init];
+    simpleMenuController.title = @"TISimpleMenuController";
+    simpleMenuController.tabBarItem.image = [UIImage imageNamed:@"bag"];
+    simpleMenuController.navigationItem.title = @"TISimpleMenuController";
+    
+    TIImageBGMenuController *bgMenuController = [[TIImageBGMenuController alloc] init];
+    bgMenuController.title = @"TIImageBGMenuController";
+    bgMenuController.tabBarItem.image = [UIImage imageNamed:@"bag"];
+    bgMenuController.navigationItem.title = @"TIImageBGMenuController";
+    
+    TIIconMenuController *iconMenuController = [[TIIconMenuController alloc] init];
+    iconMenuController.title = @"TIIconMenuController";
+    iconMenuController.tabBarItem.image = [UIImage imageNamed:@"map"];
+    iconMenuController.navigationItem.title = @"TIIconMenuController";
+    
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    [tabController setViewControllers:@[simpleMenuController, iconMenuController, bgMenuController] animated:YES];
+    
+    [self.window setRootViewController:tabController];
     
     self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];

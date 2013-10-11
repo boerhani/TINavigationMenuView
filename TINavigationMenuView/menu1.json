@@ -1,0 +1,341 @@
+{
+    "menuList":
+    [
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5260", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5265", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5270", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5275", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5280", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5285", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5290", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D5295", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D52A0", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D52A5", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D52B0", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     },
+     {
+     "categoryName":"Bag", "backgroundColor":"1D52B5", "titleColor":"ffffff",
+     "subCategoryList":[
+                        {
+                        "categoryName":"Bag1", "backgroundColor":"3D5251",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }]
+                        },
+                        {
+                        "categoryName":"Bag2", "backgroundColor":"3D2261",
+                        "subCategoryList":[
+                                           {
+                                           "categoryName":"Bag1-1", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-2", "subCategoryList":null
+                                           }, {
+                                           "categoryName":"Bag1-3", "subCategoryList":null
+                                           }
+                                           ]
+                        }
+                        ]
+     }
+     ]
+}

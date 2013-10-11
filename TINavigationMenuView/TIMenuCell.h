@@ -28,23 +28,22 @@ typedef NS_ENUM(NSUInteger, TIButtonType)  {
 
 @interface TIMenuCell : UIButton
 {
-    CGPoint _contentPadding;
 }
 
 @property (nonatomic, assign, readwrite, setter = setCellButtonType:) TIButtonType menuType;
+@property (nonatomic, assign, readwrite, setter = setContentPadding:) CGPoint contentPaddings;
 @property (nonatomic, strong, readonly) NSDictionary *menuData;
 @property (nonatomic, strong, readonly) NSString *imageName;
 
 @property (nonatomic, assign, readonly) int menuDepth;
-@property (nonatomic, assign, readonly) CGFloat menuHeight, menuWidth;
+@property (nonatomic, assign, readonly) CGSize menuSize;
 
 @property (nonatomic, strong, readonly) UIImageView *iconView;
 @property (nonatomic, strong, readonly) UILabel *cellTitle;
 @property (nonatomic, strong, readonly) UILabel *subCellTitle;
 
-- (id)initWithData:(NSDictionary *)menuData currentDepth:(int)menuDepth isCascadingTitle:(BOOL)isCascading cellHeight:(CGFloat)cellHeight
-          menuType:(TIButtonType)buttonType contentPadding:(CGPoint)padding cellWidth:(CGFloat)cellWidth;
+- (id)initWithData:(NSDictionary *)data withSize:(CGSize)size withDepth:(int)depth withType:(TIButtonType)type;
 
-- (void)updateSubViews;
+- (void)updateSubviews;
 
 @end

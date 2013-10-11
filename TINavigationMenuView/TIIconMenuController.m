@@ -1,31 +1,32 @@
 //
-//  TIViewController.m
+//  TIIconMenuController.m
 //  TINavigationMenuView
 //
 //  Created by ishtar on 13. 10. 8..
 //
 //
 
-#import "TIViewController.h"
+#import "TIIconMenuController.h"
 #import "TIMenuTableView.h"
 #import "UIColorHexString.h"
 
 #define HAS_VISIBLE_VALUE(val) (val && [val isKindOfClass:[NSString class]] && val.length > 0)
 
-@interface TIViewController ()
+@interface TIIconMenuController ()
 @end
 
-@implementation TIViewController
+@implementation TIIconMenuController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     // Get menu array data
-    NSArray *menuData = [self getMenuData];
+    NSArray *menuData = [self getMenuData:@"menu3"];
     
     // Initialization menu view
     TIMenuTableView *aMenuView = [[TIMenuTableView alloc] initWithFrame:self.view.bounds withMenuData:menuData];
+    [aMenuView setAutoresizingMask:UIViewAutoresizingFlexibleHeight];
     [aMenuView setMenuDelegate:self];
     
     // Just add
@@ -42,8 +43,10 @@
 - (TIMenuCell *)menuCellForData:(NSDictionary*)menuData
 {
     // Customized menu data (build with your own data)
-    TIMenuCell *aCategoryMenu = [[TIMenuCell alloc] initWithData:menuData currentDepth:0 isCascadingTitle:YES cellHeight:44
-                                                        menuType:TIButtonTypeNormal | TIButtonIconLeft | TIButtonTextLeftAlign contentPadding:CGPointMake(10, 3) cellWidth:self.view.bounds.size.width];
+    TIMenuCell *aCategoryMenu = [[TIMenuCell alloc] initWithData:menuData
+                                                        withSize:CGSizeMake(self.view.bounds.size.width, 44)
+                                                       withDepth:0
+                                                        withType:TIButtonTypeNormal | TIButtonIconLeft | TIButtonTextLeftAlign];
     
     NSString *aTitle = [menuData objectForKey:@"categoryName"];
     NSString *aTitleColor = [menuData objectForKey:@"titleColor"];
@@ -51,6 +54,8 @@
     NSString *aBackgroundImage = [menuData objectForKey:@"bgImage"];
     NSString *aBackgroundColor = [menuData objectForKey:@"backgroundColor"];
     NSString *aCategoryIconPath = [menuData objectForKey:@"categoryIconPath"];
+    
+    [aCategoryMenu setContentPadding:CGPointMake(10, 4)];
 
     if (HAS_VISIBLE_VALUE(aTitle)) {
         [aCategoryMenu.cellTitle setText:aTitle];
@@ -76,10 +81,6 @@
     
     if (HAS_VISIBLE_VALUE(aCategoryIconPath))
         [aCategoryMenu.iconView setImage:[UIImage imageNamed:aCategoryIconPath]];
-    
-    if (aCategoryMenu.menuHeight > 0)
-        [aCategoryMenu setFrame:CGRectMake(aCategoryMenu.frame.origin.x, aCategoryMenu.frame.origin.y,
-                                           aCategoryMenu.frame.size.width, aCategoryMenu.frame.size.height)];
 
     return aCategoryMenu;
 }
@@ -105,9 +106,9 @@
 
 
 #pragma mark - Get menu data from file or network
-- (NSArray *)getMenuData
+- (NSArray *)getMenuData:(NSString*)name
 {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"menu" ofType:@"json"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:name ofType:@"json"];
     NSData *jsonData = [NSData dataWithContentsOfFile:filePath];
     
     NSError *aError = nil;
@@ -118,7 +119,7 @@
         return nil;
     }
     
-    NSMutableArray *menuData = [resData objectForKey:@"categoryList"];
+    NSMutableArray *menuData = [resData objectForKey:@"menuList"];
     return menuData;
 }
 

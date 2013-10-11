@@ -41,11 +41,15 @@
 
 - (TIMenuCell *)getBackButton
 {
-    TIMenuCell *backMenu = [[TIMenuCell alloc] initWithData:nil currentDepth:0 isCascadingTitle:NO cellHeight:DEFAULT_BACK_BUTTON_HEIGHT
-                                                   menuType:TIButtonTypeBack contentPadding:CGPointMake(3, 3) cellWidth:self.bounds.size.width];
+    TIMenuCell *backMenu = [[TIMenuCell alloc] initWithData:nil
+                                                   withSize:CGSizeMake(self.bounds.size.width, DEFAULT_BACK_BUTTON_HEIGHT)
+                                                  withDepth:0
+                                                   withType:TIButtonTypeBack];
+    [backMenu setContentPadding:CGPointMake(3, 3)];
     [backMenu addTarget:self action:@selector(onTouchBack:) forControlEvents:UIControlEventTouchUpInside];
     [backMenu setFrame:CGRectMake(0, 0, self.bounds.size.width, DEFAULT_BACK_BUTTON_HEIGHT)];
-    [backMenu updateSubViews];
+    
+    [backMenu updateSubviews];
     
     if (_menuDataDelegate) {
         return [_menuDataDelegate applyRootButtonTheme:backMenu];
@@ -97,12 +101,12 @@
         BOOL isLastHistoryButton = [[_historyData lastObject] isEqual:aMenuButton.menuData];
         
         if (aMenuButton.menuType == TIButtonTypeBack || (aMenuButton.menuType == TIButtonTypeHistory && isLastHistoryButton == NO)) {
-            _offsetY += aMenuButton.menuHeight;
+            _offsetY += aMenuButton.menuSize.height;
             continue;
         }
         
-        CGRect buttonRect = CGRectMake(0.0f, 0.0f + _offsetY, self.bounds.size.width, aMenuButton.menuHeight);
-        _offsetY += aMenuButton.menuHeight;
+        CGRect buttonRect = CGRectMake(0.0f, 0.0f + _offsetY, self.bounds.size.width, aMenuButton.menuSize.height);
+        _offsetY += aMenuButton.menuSize.height;
         [aMenuButton setFrame:buttonRect];
     }
         
@@ -122,7 +126,7 @@
         }
         
         CGRect buttonRect = CGRectMake(0.0f, 0.0f + _offsetY, self.bounds.size.width, aMenuButton.bounds.size.height);
-        _offsetY += aMenuButton.menuHeight;
+        _offsetY += aMenuButton.menuSize.height;
         [aMenuButton setFrame:buttonRect];
     }
     
@@ -138,7 +142,7 @@
         [newCell addTarget:self action:@selector(onTouchNext:) forControlEvents:UIControlEventTouchUpInside];
         [newCell setCellButtonType:TIButtonTypeHistory];
         
-        CGRect buttonRect = CGRectMake(0.0f, originY, self.bounds.size.width, newCell.menuHeight);
+        CGRect buttonRect = CGRectMake(0.0f, originY, self.bounds.size.width, newCell.menuSize.height);
         [newCell setFrame:buttonRect];
         
         [self addSubview:newCell];
@@ -156,7 +160,7 @@
     for (NSDictionary *aMenuData in menuData) {
         TIMenuCell *newCell = [_menuDataDelegate menuCellForData:aMenuData];
         buttonRect.origin.y = curButton.frame.origin.y;
-        buttonRect.size.height = newCell.menuHeight;
+        buttonRect.size.height = newCell.menuSize.height;
         [newCell setFrame:buttonRect];
         [newCell addTarget:self action:@selector(onTouchNext:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:newCell];
@@ -308,7 +312,7 @@
         curFrame.origin.y = (toTop ? DEFAULT_BACK_BUTTON_HEIGHT : self.bounds.size.height);
 
         [delButton setFrame:curFrame];
-        [delButton updateSubViews];
+        [delButton updateSubviews];
     }
 }
 
