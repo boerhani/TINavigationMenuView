@@ -19,6 +19,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    // Create simple menu controller
     TISimpleMenuController *simpleMenuController = [[TISimpleMenuController alloc] init];
     simpleMenuController.title = @"TISimpleMenuController";
     simpleMenuController.tabBarItem.image = [UIImage imageNamed:@"bag"];
