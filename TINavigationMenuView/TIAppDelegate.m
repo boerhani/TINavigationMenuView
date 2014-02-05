@@ -34,6 +34,9 @@
     iconMenuController.tabBarItem.image = [UIImage imageNamed:@"map"];
     iconMenuController.navigationItem.title = @"TIIconMenuController";
     
+    
+    // Add TabBar Controller
+    
     UITabBarController *tabController = [[UITabBarController alloc] init];
     [tabController setViewControllers:@[simpleMenuController, iconMenuController, bgMenuController] animated:YES];
     
@@ -41,7 +44,6 @@
     
     self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
-    
     
     return YES;
 }
