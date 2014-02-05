@@ -25,6 +25,7 @@
     simpleMenuController.tabBarItem.image = [UIImage imageNamed:@"bag"];
     simpleMenuController.navigationItem.title = @"TISimpleMenuController";
     
+    // Create image menu controller
     TIImageBGMenuController *bgMenuController = [[TIImageBGMenuController alloc] init];
     bgMenuController.title = @"TIImageBGMenuController";
     bgMenuController.tabBarItem.image = [UIImage imageNamed:@"bag"];
